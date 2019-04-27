@@ -1,0 +1,28 @@
+{
+  "name": "antd-course",
+  "version": "1.0.0",
+  "description": "antd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szy0syz/antd-course.git"
+  },
+  "keywords": [
+    "antd",
+    "umi"
+  ],
+  "author": "szy0syz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szy0syz/antd-course/issues"
+  },
+  "homepage": "https://github.com/szy0syz/antd-course#readme",
+  "devDependencies": {
+    "umi": "^2.6.16",
+    "umi-plugin-react": "^1.7.5"
+  }
+}
