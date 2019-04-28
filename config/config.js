@@ -21,5 +21,12 @@ export default {
         dva: true
       }
     ]
-  ]
+  ],
+  proxy: {
+    '/dev': {
+      target: 'https://official-joke-api.appspot.com',
+      changeOrigin: true,
+      pathRewrite: { "^/dev": "" }
+    },
+  },
 }
