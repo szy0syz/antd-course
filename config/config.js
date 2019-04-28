@@ -9,7 +9,8 @@ export default {
           path: 'helloworld',
           component: './HelloWorld'
         },
-        { path: 'puzzlecards', component: './puzzlecards' }
+        { path: 'puzzlecards', component: './puzzlecards' },
+        { path: 'list', component: './list' }
       ]
     }
   ],
